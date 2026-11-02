@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 15px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.card.selecionado {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 20px;
+}
